@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_map_prac/convert_latlan_to_address.dart';
+import 'package:google_map_prac/google_places_api.dart';
 import 'package:google_map_prac/home_screen.dart';
 import 'package:google_map_prac/user_current_location.dart';
 
@@ -14,13 +15,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        // useMaterial3: true,
       ),
-      home:const GetUserCurrentLocation(),
+      home:const GooglePlacesApiScreen(),
     );
   }
 }
