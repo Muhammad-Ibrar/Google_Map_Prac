@@ -4,6 +4,8 @@ import 'package:google_map_prac/custom-marker_info_window.dart';
 import 'package:google_map_prac/custome_marker_screen.dart';
 import 'package:google_map_prac/google_places_api.dart';
 import 'package:google_map_prac/home_screen.dart';
+import 'package:google_map_prac/polygone_screen.dart';
+import 'package:google_map_prac/polyline.dart';
 import 'package:google_map_prac/user_current_location.dart';
 
 void main() {
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         // useMaterial3: true,
       ),
-      home:const CustomMarkerInfoWindow(),
+      home:const PolyLineScreen(),
     );
   }
 }

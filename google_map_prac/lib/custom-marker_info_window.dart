@@ -106,9 +106,9 @@ class _CustomMarkerInfoWindowState extends State<CustomMarkerInfoWindow> {
                         ),
                        const Padding(
                             padding: EdgeInsets.only(top: 10 , right: 10, left: 10),
-                          child: Text('This Tacos are very decilious'),
+                          child: Text('This Tacos are very decilious and i suggest you to try this.' , maxLines: 2,),
 
-                        )
+                        ),
                       ],
                     ),
                   ),
