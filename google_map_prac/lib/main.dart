@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_map_prac/convert_latlan_to_address.dart';
+import 'package:google_map_prac/custom-marker_info_window.dart';
 import 'package:google_map_prac/custome_marker_screen.dart';
 import 'package:google_map_prac/google_places_api.dart';
 import 'package:google_map_prac/home_screen.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         // useMaterial3: true,
       ),
-      home:const CustomMarkerScreen(),
+      home:const CustomMarkerInfoWindow(),
     );
   }
 }
