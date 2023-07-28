@@ -42,6 +42,7 @@ dependencies:
   uuid: ^3.0.7
   custom_info_window: ^1.0.1
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -71,6 +72,9 @@ flutter:
     - images/motorcycle.png
     - images/location.png
     - images/location-pin.png
+    - assets/maptheme/silver_theme.json
+    - assets/maptheme/night_theme.json
+    - assets/maptheme/retro_theme.json
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
